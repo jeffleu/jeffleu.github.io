@@ -52,7 +52,7 @@ header {
   height: 100vh;
 	width: calc(100% + 16px);
   max-height: 100vh;
- 	background: url(https://raw.githubusercontent.com/jeffleu/jeffleu.github.io/master/images/dark-forest.jpg) 50% 0 no-repeat fixed;
+ 	background: url(https://raw.githubusercontent.com/jeffleu/jeffleu.github.io/master/images/dark-forest2.jpg) 50% 0 no-repeat fixed;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -84,7 +84,7 @@ header {
 }
 
 .paralax1 {
-  background: url(https://github.com/jeffleu/jeffleu.github.io/blob/master/images/dark-forest2.jpg?raw=true) 50% 0 no-repeat fixed;
+  background: url(https://github.com/jeffleu/jeffleu.github.io/blob/master/images/dark-forest.jpg?raw=true) 50% 0 no-repeat fixed;
 }
 
 .paralax2 {
