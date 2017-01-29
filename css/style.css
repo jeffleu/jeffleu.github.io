@@ -52,7 +52,7 @@ header {
   height: 100vh;
 	width: calc(100% + 16px);
   max-height: 100vh;
- 	background: url(https://content-na.drive.amazonaws.com/cdproxy/templink/x-rdd0c61QU4T6i2Sqnu2-fKRs-Gx5p5tEgVU6jyBRkpX92IB?viewBox=1600,900) 50% 0 no-repeat fixed;
+ 	background: url(https://raw.githubusercontent.com/jeffleu/jeffleu.github.io/master/images/dark-forest.jpg?raw=true) 50% 0 no-repeat fixed;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -84,15 +84,15 @@ header {
 }
 
 .paralax1 {
-  background: url(https://images2.alphacoders.com/727/727283.jpg) 50% 0 no-repeat fixed;
+  background: url(https://github.com/jeffleu/jeffleu.github.io/blob/master/images/dark-forest2.jpg?raw=true) 50% 0 no-repeat fixed;
 }
 
 .paralax2 {
-  background: url(http://arielbeninca.com/Storage/1746699.jpg) 50% 0 no-repeat fixed;
+  background: url(https://github.com/jeffleu/jeffleu.github.io/blob/master/images/dark-forest3.jpg?raw=true) 50% 0 no-repeat fixed;
 }
 
 .paralax3 {
-  background: url(https://content-na.drive.amazonaws.com/cdproxy/templink/x-rdd0c61QU4T6i2Sqnu2-fKRs-Gx5p5tEgVU6jyBRkpX92IB?viewBox=1600,900) 50% 0 no-repeat fixed;
+  background: url(http://wallpapercave.com/wp/jYqqRWg.jpg) 50% 0 no-repeat fixed;
 }
 
 /* Mouse animation */
@@ -111,7 +111,7 @@ header {
   display: block;
   margin: 6px auto;
   width: 3px;
-  height: 3px;
+  height: 7px;
   border-radius: 4px;
   background: white;
   -webkit-animation-duration: 2s;
@@ -137,9 +137,9 @@ hr {
 
   100% {
     opacity: 0;
-    -webkit-transform: translateY(20px);
-    -ms-transform: translateY(20px);
-    transform: translateY(20px);
+    -webkit-transform: translateY(15px);
+    -ms-transform: translateY(15px);
+    transform: translateY(15px);
   }
 }
 
@@ -154,3 +154,98 @@ hr {
     transform: translateY(20px);
   }
 }
+
+
+
+
+
+/*
+li {
+    list-style-type: none;
+}
+
+#range {
+  margin-top: 5px;
+  color: #eee;
+  font-size: 10pt;
+  margin-left: 10px;
+}
+
+#specks {
+  position: absolute;
+  z-index: 999;
+  height: 100vh;
+  width: 100vw;
+}
+
+.speck {
+  opacity: 0;
+  height: 4px;
+  width: 4px;
+  background: url('http://i1272.photobucket.com/albums/y391/matthew_williams10/speck_zpsu9xym9zl.png');
+  background-size: cover;
+  position: absolute;
+  border-radius: 10px;
+  z-index: 99;
+}
+
+.img {
+  position: absolute;
+  height: 100000px;
+  width: 100000px;
+  top: -8500px;
+  left: -8000px;
+  animation-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+  animation-name: float;
+  animation-iteration-count: infinite;
+}
+
+#img-1 {
+  opacity: 0.25;
+  background: url('http://i1272.photobucket.com/albums/y391/matthew_williams10/dust1_zpst8inukke.jpg');
+  background-repeat: repeat;
+  animation-duration: 600s;
+}
+
+#img-2 {
+  opacity: 0.2;
+  background: url('http://i1272.photobucket.com/albums/y391/matthew_williams10/dust2_zps9on59cjb.jpg');
+  background-repeat: repeat;
+  animation-duration: 450s;
+}
+
+#img-3 {
+  opacity: 0.15;
+  background: url('http://i1272.photobucket.com/albums/y391/matthew_williams10/dust3_zps9hjmkyei.jpg');
+  background-repeat: repeat;
+  animation-duration: 350s;
+}*/
+
+/*ANIMATIONS*/
+/*@keyframes twinkle {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  30% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.75;
+  }
+  70% {
+    opacity: 0;
+  }
+  100% {
+    transform: translate(175px, 100px);
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  100% {
+      transform:translate(8000px, 4000px);
+  }
+}
+*/
