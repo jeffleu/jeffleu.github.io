@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Jeff Leu's Portfolio Website</title>
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="icon" href="images/ness.png">
 </head>
 <body>
 
 	<div id="main">
 		<header data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -200px;">
-			<div id="header-content" data-top=" opacity:1; transform[swing]:scale(1) " data-top-bottom=" opacity:0; transform[swing]:scale(0.5) " data-anchor-target="header">
+			<div id="header-content" data-top="opacity: 1; transform[swing]: scale(1)" data-top-bottom="opacity: 0; transform[swing]: scale(0.5)" data-anchor-target="header">
 				<img class="profile-picture" src="https://raw.githubusercontent.com/jeffleu/jeffleu.github.io/master/images/profile-picture.png">
 				<h1 class="name">Jeff Leu</h1>
-				<p class="job-title">Software Engineer</p>
+				<span class="element"></span>
 			</div>
 			<div class="mouse animated fadeInUp" data-top="opacity: 1;" data-top-bottom="opacity: 0;" data-anchor-target="header">
 				<div class="scroll"></div>
@@ -55,6 +57,27 @@
 	<div class="container">
 		<div class="project-row">
 			<div class="atvImg">
+				<img src="https://raw.githubusercontent.com/jeffleu/2048/master/images/demo-large.gif">
+				<div class="atvImg-layer" data-img="https://raw.githubusercontent.com/jeffleu/2048/master/images/demo-large.gif"></div>
+			</div>
+
+			<div class="atvImg">
+	 			<img src="https://raw.githubusercontent.com/jeffleu/lights-out/master/src/client/images/demo.gif">
+			  <div class="atvImg-layer" data-img="https://raw.githubusercontent.com/jeffleu/lights-out/master/src/client/images/demo.gif"></div>
+			</div>
+
+			<div class="atvImg">
+				<img src="https://raw.githubusercontent.com/jeffleu/connect-4/master/images/demo.gif">
+				<div class="atvImg-layer" data-img="https://raw.githubusercontent.com/jeffleu/connect-4/master/images/demo.gif"></div>
+			</div>
+
+			<div class="atvImg">
+				<img src="https://raw.githubusercontent.com/jeffleu/tic-tac-toe/master/src/client/images/demo.gif">
+				<div class="atvImg-layer" data-img="https://raw.githubusercontent.com/jeffleu/tic-tac-toe/master/src/client/images/demo.gif"></div>
+			</div>
+		</div>
+		<div class="project-row">
+			<div class="atvImg">
 	 			<img src="https://raw.githubusercontent.com/jeffleu/jeffleu.github.io/master/images/velocity-dashboard.png">
 			  <div class="atvImg-layer" data-img="https://raw.githubusercontent.com/jeffleu/jeffleu.github.io/master/images/velocity-dashboard.png"></div>
 			</div>
@@ -67,17 +90,6 @@
 			<div class="atvImg">
 	 			<img src="https://raw.githubusercontent.com/jeffleu/jeffleu.github.io/master/images/perfect-pitch.png">
 			  <div class="atvImg-layer" data-img="https://raw.githubusercontent.com/jeffleu/jeffleu.github.io/master/images/perfect-pitch.png"></div>
-			</div>
-
-			<div class="atvImg">
-	 			<img src="https://raw.githubusercontent.com/jeffleu/lights-out/master/src/client/images/demo.gif">
-			  <div class="atvImg-layer" data-img="https://raw.githubusercontent.com/jeffleu/lights-out/master/src/client/images/demo.gif"></div>
-			</div>			
-		</div>
-		<div class="project-row">
-			<div class="atvImg">
-			<img src="https://raw.githubusercontent.com/jeffleu/tic-tac-toe/master/src/client/images/demo.gif">
-			<div class="atvImg-layer" data-img="https://raw.githubusercontent.com/jeffleu/tic-tac-toe/master/src/client/images/demo.gif"></div>
 			</div>
 		</div>
 
@@ -119,15 +131,28 @@
 	<hr>
 
 	<div class="footer">
-		<a style="padding-bottom: 100px;" href="http://arielbeninca.com" target="_blank">arielbeninca.com</a>
+		<div class="icons">
+      <ul class="social-network social-circle">
+	      <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+	      <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+	      <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+	      <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+	    </ul>
+		</div>
 	</div>
 
 	<script src="js/script.js"></script>
 	<script src="js/jquery-1.11.0.min.js"></script>
 	<script src="js/atvImg.js"></script>
-	<!-- <script>atvImg();</script> -->
 	<script src="js/skrollr.min.js"></script>
-	<!-- <script>var s=skrollr.init({forceHeight:false});</script> -->
-
+	<script src="js/typed.js"></script>
+<!-- 	<script>
+    $(function(){
+      $(".element").typed({
+        strings: ["Software Engineer"],
+        typeSpeed: 0
+      });
+    });
+	</script> -->
 </body>
 </html>
