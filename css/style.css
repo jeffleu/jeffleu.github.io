@@ -60,8 +60,14 @@ p {
   color: white;
 }
 
+.project {
+  margin-bottom: 100px;
+}
+
 .project-row {
   margin-bottom: 25px;
+  display: flex;
+
 }
 
 a {
@@ -260,6 +266,15 @@ hr {
 /*=========================
   Icons
 =========================*/
+.social-network a {
+  background-color: #0A0A0A;
+}
+
+/*.social-network .fa {
+  margin-left: 17px;
+  transform-origin: 15% 51%;
+}
+*/
 .icons {
   margin-bottom: 60px;
 }
@@ -277,29 +292,46 @@ ul.social-network li {
   margin: 0 5px;
 }
 
-/* footer social icons */
-.social-network a.icoRss:hover {
-  background-color: #F56505;
+.social-network i.fa-linkedin {
+  margin-left: 17px;
+  transform-origin: 20% 51%;
 }
-.social-network a.icoFacebook:hover {
-  background-color:#3B5998;
-}
-.social-network a.icoTwitter:hover {
-  background-color:#33ccff;
-}
-.social-network a.icoGoogle:hover {
-  background-color:#BD3518;
-}
-.social-network a.icoVimeo:hover {
-  background-color:#0590B8;
-}
+
 .social-network a.icoLinkedin:hover {
-  background-color:#007bb7;
+  background-color: #007bb7;
 }
-.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
-.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
-  color:#fff;
+
+.social-network i.fa-github {
+  margin-left: 17px;
+  transform-origin: 20% 51%;
 }
+
+.social-network a.icoGithub:hover {
+  background-color: black;
+}
+
+.social-network i.fa-codepen {
+  margin-left: 15px;
+  transform-origin: 20% 51%;
+}
+
+.social-network a.icoCodepen:hover {
+  background-color: black;
+}
+
+.social-network i.fa-twitch {
+  margin-left: 16px;
+  transform-origin: 20% 51%;
+}
+
+.social-network a.icoTwitch:hover {
+  background-color: #6441A5;
+}
+
+.social-network a.icoLinkedin:hover i, .social-network a.icoGithub:hover i, .social-network a.icoCodepen:hover i, .social-network a.icoCodepen:hover i {
+  color: white;
+}
+
 a.socialIcon:hover, .socialHoverClass {
   color:#44BCDD;
 }
@@ -341,10 +373,6 @@ a.socialIcon:hover, .socialHoverClass {
   -ms-transition: all 0.8s;
   transition: all 0.8s;
 }
-/*
-a {
- background-color: #D3D3D3;   
-}*/
 
 /*=========================
   Blinking Cursor
@@ -382,6 +410,162 @@ a {
   100% { opacity:1; }
 }
 
+
+/*=========================
+  Image Hover
+=========================*/
+figure.snip1228 {
+  color: #fff;
+  position: relative;
+  /*float: left;*/
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 220px;
+  max-width: 310px;
+  max-height: 220px;
+  width: 100%;
+  background: #444444;
+  text-align: left;
+}
+
+figure.snip1228 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+figure.snip1228 img {
+  opacity: 1;
+  width: 100%;
+}
+
+figure.snip1228 figcaption {
+  height: 78px;
+  width: 78px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  content: '';
+  -webkit-transform: rotate(45deg) translate(-50%, -50%);
+  transform: rotate(45deg) translate(-50%, -50%);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+
+figure.snip1228 figcaption i {
+  border: 2px solid #fff;
+  position: absolute;
+  background-color: #444444;
+  text-align: center;
+  font-size: 28px;
+  line-height: 40px;
+  height: 40px;
+  width: 40px;
+  color: #ffffff;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+figure.snip1228 figcaption i.left {
+  -webkit-transform: translate(-100%, 100%);
+  transform: translate(-100%, 100%);
+  bottom: 0;
+  left: 0;
+}
+
+figure.snip1228 figcaption i.right {
+  -webkit-transform: translate(100%, -100%);
+  transform: translate(100%, -100%);
+  top: 0;
+  right: 0;
+}
+
+figure.snip1228 figcaption i:before {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+figure.snip1228 figcaption:before,
+figure.snip1228 figcaption:after,
+figure.snip1228 figcaption div:before,
+figure.snip1228 figcaption div:after {
+  background-color: #ffffff;
+  position: absolute;
+  content: "";
+  display: block;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+figure.snip1228 figcaption:before,
+figure.snip1228 figcaption:after {
+  width: 0;
+  height: 2px;
+}
+
+figure.snip1228 figcaption div:before,
+figure.snip1228 figcaption div:after {
+  width: 2px;
+  height: 0;
+}
+
+figure.snip1228 figcaption:before,
+figure.snip1228 figcaption div:before {
+  left: 0;
+  top: 0;
+}
+
+figure.snip1228 figcaption:after,
+figure.snip1228 figcaption div:after {
+  bottom: 0;
+  right: 0;
+}
+
+figure.snip1228.blue {
+  background: #0a212f;
+}
+
+figure.snip1228.blue i.right {
+  background-color: #2980b9;
+}
+
+figure.snip1228:hover img,
+figure.snip1228.hover img {
+  opacity: 0.2;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+figure.snip1228:hover figcaption,
+figure.snip1228.hover figcaption {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+figure.snip1228:hover figcaption i,
+figure.snip1228.hover figcaption i {
+  -webkit-transform: translate(0%, 0%);
+  transform: translate(0%, 0%);
+  -webkit-transition-delay: 0.35s;
+  transition-delay: 0.35s;
+}
+
+figure.snip1228:hover figcaption:before,
+figure.snip1228.hover figcaption:before,
+figure.snip1228:hover figcaption:after,
+figure.snip1228.hover figcaption:after {
+  width: 100%;
+}
+
+figure.snip1228:hover figcaption div:before,
+figure.snip1228.hover figcaption div:before,
+figure.snip1228:hover figcaption div:after,
+figure.snip1228.hover figcaption div:after {
+  height: 100%;
+}
 
 
 /*
